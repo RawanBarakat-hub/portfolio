@@ -204,7 +204,7 @@ export const projects=[
         },
         title:"Library Management System",
         text:"Website for categorizing and organizing books.",
-        code_link:"https://github.com/RawanBarakat-hub/task-1-adv",
+        code_Link:"https://github.com/RawanBarakat-hub/task-1-adv",
         project_Link:"https://rawanbarakat-hub.github.io/task-1-adv/"
     },
     {
@@ -214,7 +214,7 @@ export const projects=[
         },
         title:"Travel",
         text:"Simple landing page for a travel agency website",
-        code_link:"https://github.com/RawanBarakat-hub/Travel",
+        code_Link:"https://github.com/RawanBarakat-hub/Travel",
         project_Link:"https://rawanbarakat-hub.github.io/Travel/"
     }
 ]

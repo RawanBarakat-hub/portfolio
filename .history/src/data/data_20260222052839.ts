@@ -214,8 +214,8 @@ export const projects=[
         },
         title:"Travel",
         text:"Simple landing page for a travel agency website",
-        code_link:"https://github.com/RawanBarakat-hub/Travel",
-        project_Link:"https://rawanbarakat-hub.github.io/Travel/"
+        code_Link:"https://github.com/RawanBarakat-hub/Travel",
+        project_link:"https://rawanbarakat-hub.github.io/Travel/"
     }
 ]
 export const certifications=[
