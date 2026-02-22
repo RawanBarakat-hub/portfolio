@@ -1,0 +1,6 @@
+interface Image{
+    
+}
+interface NavProps{
+
+}

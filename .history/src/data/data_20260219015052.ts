@@ -1,0 +1,22 @@
+export6 const nav_links=[
+    {
+      url:"/",
+      text:"Home"
+    },
+    {
+      url:"/",
+      text:"About"
+    },
+    {
+      url:"/",
+      text:"Skills"
+    },
+    {
+      url:"/",
+      text:"Projects"
+    },
+    {
+      url:"/",
+      text:"Contact"
+    }
+  ]
