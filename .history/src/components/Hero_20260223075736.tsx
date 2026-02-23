@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="h-screen pt-35 lg:pt-25 flex flex-col lg:flex-row
         justify-center lg:justify-between items-center gap-5">
             <div className="text-center lg:text-left">
-                <Image source="/assets/images/photos/rawan.png" alternative="rawan"/>
+            <Image source="/assets/images/photos/rawan.png" alternative="rawan"/>
                 <WelcomeText text="Hello, I’m"/>
                 <h1 className="text-white text-3xl lg:text-5xl mt-3 lg:mt-4
                 mb-4 lg:mb-6 font-bold">Rawan Mohammad Barakat</h1>
