@@ -1,7 +1,7 @@
 import { HashLink } from "react-router-hash-link"
 import type { NavProps } from "../interfaces"
 import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { AnimatePresence } from "framer-motion"
 
 const NavBar = ({logo,nav_links,bar_icon,cancel_icon}:NavProps) => {
     const [show,setShow]=useState<boolean>(false)
@@ -23,34 +23,34 @@ const NavBar = ({logo,nav_links,bar_icon,cancel_icon}:NavProps) => {
                     </ul>
                 </div>
                 <motion.button
-                    onClick={() => setShow(!show)}
-                    className="block lg:hidden"
-                    whileTap={{ scale: 0.9 }}
-                    >
-                    <AnimatePresence mode="wait">
-                        {show ? (
-                        <motion.img
-                            key="close"
-                            src={cancel_icon.source}
-                            alt={cancel_icon.alternative}
-                            initial={{ rotate: -90, opacity: 0, scale: 0.5 }}
-                            animate={{ rotate: 0, opacity: 1, scale: 1 }}
-                            exit={{ rotate: 90, opacity: 0, scale: 0.5 }}
-                            transition={{ duration: 0.3 }}
-                        />
-                        ) : (
-                        <motion.img
-                            key="bars"
-                            src={bar_icon.source}
-                            alt={bar_icon.alternative}
-                            initial={{ rotate: 90, opacity: 0, scale: 0.5 }}
-                            animate={{ rotate: 0, opacity: 1, scale: 1 }}
-                            exit={{ rotate: -90, opacity: 0, scale: 0.5 }}
-                            transition={{ duration: 0.3 }}
-                        />
-                        )}
-                    </AnimatePresence>
-                    </motion.button>
+  onClick={() => setShow(!show)}
+  className="block lg:hidden"
+  whileTap={{ scale: 0.9 }}
+>
+  <AnimatePresence mode="wait">
+    {show ? (
+      <motion.img
+        key="close"
+        src={cancel_icon.source}
+        alt={cancel_icon.alternative}
+        initial={{ rotate: -90, opacity: 0, scale: 0.5 }}
+        animate={{ rotate: 0, opacity: 1, scale: 1 }}
+        exit={{ rotate: 90, opacity: 0, scale: 0.5 }}
+        transition={{ duration: 0.3 }}
+      />
+    ) : (
+      <motion.img
+        key="bars"
+        src={bar_icon.source}
+        alt={bar_icon.alternative}
+        initial={{ rotate: 90, opacity: 0, scale: 0.5 }}
+        animate={{ rotate: 0, opacity: 1, scale: 1 }}
+        exit={{ rotate: -90, opacity: 0, scale: 0.5 }}
+        transition={{ duration: 0.3 }}
+      />
+    )}
+  </AnimatePresence>
+</motion.button>
             </nav>
             <div className={`
                     lg:hidden

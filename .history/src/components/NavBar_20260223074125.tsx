@@ -1,7 +1,7 @@
 import { HashLink } from "react-router-hash-link"
 import type { NavProps } from "../interfaces"
 import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { AnimatePresence } from "framer-motion"
 
 const NavBar = ({logo,nav_links,bar_icon,cancel_icon}:NavProps) => {
     const [show,setShow]=useState<boolean>(false)

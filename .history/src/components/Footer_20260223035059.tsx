@@ -5,7 +5,7 @@ import WelcomeText from "./WelcomeText"
 
 const Footer = () => {
     return (
-        <footer id="contact" className="py-8 lg:py-10">
+        <footer id="contact" className="py-15 lg:py-8">
             <Container className="footer">
                 {
                     social_media.map((item,index)=>{

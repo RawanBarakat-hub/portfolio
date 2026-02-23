@@ -5,7 +5,6 @@ import { nav_links } from "./data/data"
 import "./index.css"
 import { motion } from "framer-motion"
 import { fadeUp } from "./animation/variants"
-import ScrollToTop from "./components/ScrollToTop"
 
 const Hero = lazy(() => import("./components/Hero"))
 const Main = lazy(() => import("./components/Main"))
