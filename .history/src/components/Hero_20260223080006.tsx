@@ -6,7 +6,6 @@ const Hero = () => {
     return (
         <div className="h-screen pt-35 lg:pt-25 flex flex-col lg:flex-row
         justify-center lg:justify-between items-center gap-5">
-            <Image source="/assets/images/photos/rawan.png" alternative="rawan"/>
             <div className="text-center lg:text-left">
                 <WelcomeText text="Hello, I’m"/>
                 <h1 className="text-white text-3xl lg:text-5xl mt-3 lg:mt-4

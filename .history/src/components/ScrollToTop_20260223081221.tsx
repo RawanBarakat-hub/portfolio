@@ -35,14 +35,14 @@ const ScrollToTop = () => {
           transition={{ duration: 0.3 }}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="fixed bottom-6 right-6 z-50 w-15 h-15 flex
+          className="fixed bottom-6 right-6 z-50 w-12 h-12 flex
           justify-center items-center bg-primary-color
           rounded-full shadow-lg cursor-pointer"
         >
           <img
             src="/assets/images/icons/arrow-top.svg"
             alt="arrow"
-            className="w-9"
+            className="w-10 h-5"
           />
         </motion.div>
       )}

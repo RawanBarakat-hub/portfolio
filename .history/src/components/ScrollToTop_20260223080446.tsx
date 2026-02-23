@@ -1,21 +1,28 @@
 import { useEffect, useState } from "react"
-import { motion, AnimatePresence, useScroll } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 
 const ScrollToTop = () => {
-  const { scrollY } = useScroll()
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    const unsubscribe = scrollY.on("change", (latest) => {
-      if (latest > 200) {
+    const toggleVisibility = () => {
+      const scrolled =
+        document.documentElement.scrollTop || document.body.scrollTop
+
+      if (scrolled > 200) {
         setVisible(true)
       } else {
         setVisible(false)
       }
-    })
+    }
 
-    return () => unsubscribe()
-  }, [scrollY])
+    window.addEventListener("scroll", toggleVisibility)
+
+    // 👇 مهم جداً: فحص أولي عند التحميل
+    toggleVisibility()
+
+    return () => window.removeEventListener("scroll", toggleVisibility)
+  }, [])
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -42,7 +49,7 @@ const ScrollToTop = () => {
           <img
             src="/assets/images/icons/arrow-top.svg"
             alt="arrow"
-            className="w-9"
+            className="w-10"
           />
         </motion.div>
       )}

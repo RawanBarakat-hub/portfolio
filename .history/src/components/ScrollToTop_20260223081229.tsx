@@ -42,7 +42,7 @@ const ScrollToTop = () => {
           <img
             src="/assets/images/icons/arrow-top.svg"
             alt="arrow"
-            className="w-9"
+            className="w-10"
           />
         </motion.div>
       )}
