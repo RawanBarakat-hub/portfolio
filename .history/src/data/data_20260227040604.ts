@@ -169,16 +169,6 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/flora.jpg",
-            alternative:"Flora project"
-        },
-        title:"Flora",
-        text:"Landing Page for a Real Estate Website",
-        code_link:"https://github.com/RawanBarakat-hub/task-4-adv",
-        project_Link:"https://rawanbarakat-hub.github.io/task-4-adv/"
-    },
-    {
-        image:{
             source:"/assets/images/photos/littlelearners.jpg",
             alternative:"little learners project"
         },
@@ -187,6 +177,7 @@ export const projects=[
         code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
         project_Link:"https://task-2-adv-pi.vercel.app/"
     },
+    
     {
         image:{
             source:"/assets/images/photos/agency.jpg",

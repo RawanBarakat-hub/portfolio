@@ -159,13 +159,13 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/dash.jpg",
-            alternative:"Dashboard project"
+            source:"/assets/images/photos/littlelearners.jpg",
+            alternative:"little learners project"
         },
-        title:"E-commerce store dashboard",
-        text:"Dashboard for managing E-commerce store",
-        code_link:"https://github.com/RawanBarakat-hub/task-5-adv",
-        project_Link:"https://task-5-adv.vercel.app/"
+        title:"Little learners",
+        text:"Website for an educational institution.",
+        code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
+        project_Link:"https://task-2-adv-pi.vercel.app/"
     },
     {
         image:{
@@ -176,16 +176,6 @@ export const projects=[
         text:"Landing Page for a Real Estate Website",
         code_link:"https://github.com/RawanBarakat-hub/task-4-adv",
         project_Link:"https://rawanbarakat-hub.github.io/task-4-adv/"
-    },
-    {
-        image:{
-            source:"/assets/images/photos/littlelearners.jpg",
-            alternative:"little learners project"
-        },
-        title:"Little learners",
-        text:"Website for an educational institution.",
-        code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
-        project_Link:"https://task-2-adv-pi.vercel.app/"
     },
     {
         image:{

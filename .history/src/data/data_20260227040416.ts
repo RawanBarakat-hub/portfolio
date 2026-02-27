@@ -139,6 +139,16 @@ export const projects=[
     },
     {
         image:{
+            source:"/assets/images/photos/littlelearners.jpg",
+            alternative:"little learners project"
+        },
+        title:"Little learners",
+        text:"Website for an educational institution.",
+        code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
+        project_Link:"https://task-2-adv-pi.vercel.app/"
+    },
+    {
+        image:{
             source:"/assets/images/photos/next.jpg",
             alternative:"next project"
         },
@@ -159,16 +169,6 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/dash.jpg",
-            alternative:"Dashboard project"
-        },
-        title:"E-commerce store dashboard",
-        text:"Dashboard for managing E-commerce store",
-        code_link:"https://github.com/RawanBarakat-hub/task-5-adv",
-        project_Link:"https://task-5-adv.vercel.app/"
-    },
-    {
-        image:{
             source:"/assets/images/photos/flora.jpg",
             alternative:"Flora project"
         },
@@ -179,13 +179,13 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/littlelearners.jpg",
-            alternative:"little learners project"
+            source:"/assets/images/photos/dash.jpg",
+            alternative:"Dashboard project"
         },
-        title:"Little learners",
-        text:"Website for an educational institution.",
-        code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
-        project_Link:"https://task-2-adv-pi.vercel.app/"
+        title:"E-commerce store dashboard",
+        text:"Dashboard for managing E-commerce store",
+        code_link:"https://github.com/RawanBarakat-hub/task-5-adv",
+        project_Link:"https://task-5-adv.vercel.app/"
     },
     {
         image:{

@@ -129,6 +129,26 @@ export const skills=[
 export const projects=[
     {
         image:{
+            source:"/assets/images/photos/flora.jpg",
+            alternative:"Flora project"
+        },
+        title:"Flora",
+        text:"Landing Page for a Real Estate Website",
+        code_link:"https://github.com/RawanBarakat-hub/task-4-adv",
+        project_Link:"https://rawanbarakat-hub.github.io/task-4-adv/"
+    },
+    {
+        image:{
+            source:"/assets/images/photos/dash.jpg",
+            alternative:"Dashboard project"
+        },
+        title:"E-commerce store dashboard",
+        text:"Dashboard for managing E-commerce store",
+        code_link:"https://github.com/RawanBarakat-hub/task-5-adv",
+        project_Link:"https://task-5-adv.vercel.app/"
+    },
+    {
+        image:{
             source:"/assets/images/photos/blog.jpg",
             alternative:"Blogs project"
         },
@@ -136,6 +156,16 @@ export const projects=[
         text:"Website for displaying blogs across different categories.",
         code_link:"https://github.com/RawanBarakat-hub/task-6-adv",
         project_Link:"https://task-6-adv-tawny.vercel.app/"
+    },
+    {
+        image:{
+            source:"/assets/images/photos/littlelearners.jpg",
+            alternative:"little learners project"
+        },
+        title:"Little learners",
+        text:"Website for an educational institution.",
+        code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
+        project_Link:"https://task-2-adv-pi.vercel.app/"
     },
     {
         image:{
@@ -159,36 +189,6 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/dash.jpg",
-            alternative:"Dashboard project"
-        },
-        title:"E-commerce store dashboard",
-        text:"Dashboard for managing E-commerce store",
-        code_link:"https://github.com/RawanBarakat-hub/task-5-adv",
-        project_Link:"https://task-5-adv.vercel.app/"
-    },
-    {
-        image:{
-            source:"/assets/images/photos/flora.jpg",
-            alternative:"Flora project"
-        },
-        title:"Flora",
-        text:"Landing Page for a Real Estate Website",
-        code_link:"https://github.com/RawanBarakat-hub/task-4-adv",
-        project_Link:"https://rawanbarakat-hub.github.io/task-4-adv/"
-    },
-    {
-        image:{
-            source:"/assets/images/photos/littlelearners.jpg",
-            alternative:"little learners project"
-        },
-        title:"Little learners",
-        text:"Website for an educational institution.",
-        code_link:"https://github.com/RawanBarakat-hub/task-2-adv",
-        project_Link:"https://task-2-adv-pi.vercel.app/"
-    },
-    {
-        image:{
             source:"/assets/images/photos/agency.jpg",
             alternative:"Digital project"
         },
@@ -199,13 +199,13 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/library.jpg",
-            alternative:"library project"
+            source:"/assets/images/photos/digital.jpg",
+            alternative:"Agency project"
         },
-        title:"Library Management System",
-        text:"Website for categorizing and organizing books.",
-        code_link:"https://github.com/RawanBarakat-hub/task-1-adv",
-        project_Link:"https://rawanbarakat-hub.github.io/task-1-adv/"
+        title:"Digital agency",
+        text:"Website for a digital products company.",
+        code_link:"https://github.com/RawanBarakat-hub/Task-5",
+        project_Link:"https://rawanbarakat-hub.github.io/Task-5/"
     },
     {
         image:{
@@ -226,16 +226,16 @@ export const projects=[
         text:"Simple landing page to switch between dark and light mode",
         code_link:"https://github.com/RawanBarakat-hub/Task-additional",
         project_Link:"https://rawanbarakat-hub.github.io/Task-additional/"
-    },
+    }
     {
         image:{
-            source:"/assets/images/photos/digital.jpg",
-            alternative:"Agency project"
+            source:"/assets/images/photos/library.jpg",
+            alternative:"library project"
         },
-        title:"Digital agency",
-        text:"Website for a digital products company.",
-        code_link:"https://github.com/RawanBarakat-hub/Task-5",
-        project_Link:"https://rawanbarakat-hub.github.io/Task-5/"
+        title:"Library Management System",
+        text:"Website for categorizing and organizing books.",
+        code_link:"https://github.com/RawanBarakat-hub/task-1-adv",
+        project_Link:"https://rawanbarakat-hub.github.io/task-1-adv/"
     }
 ]
 export const certifications=[
