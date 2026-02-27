@@ -112,17 +112,7 @@ export const skills=[
         },
         link:{
             url:"https://www.w3schools.com",
-            text:"REST API"
-        },
-    },
-    {
-        image:{
-            source:"/assets/images/icons/api.svg",
-            alternative:"Api icon"
-        },
-        link:{
-            url:"https://www.w3schools.com",
-            text:"WebSocket API"
+            text:"Rest & Websocket api"
         },
     }
 ]

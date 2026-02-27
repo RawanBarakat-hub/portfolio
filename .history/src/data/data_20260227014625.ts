@@ -112,7 +112,7 @@ export const skills=[
         },
         link:{
             url:"https://www.w3schools.com",
-            text:"REST API"
+            text:"Rest api"
         },
     },
     {
@@ -122,7 +122,7 @@ export const skills=[
         },
         link:{
             url:"https://www.w3schools.com",
-            text:"WebSocket API"
+            text:"Websocket api"
         },
     }
 ]

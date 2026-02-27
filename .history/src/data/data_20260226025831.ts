@@ -104,26 +104,6 @@ export const skills=[
             url:"https://www.w3schools.com/git/default.asp",
             text:"Git"
         }
-    },
-    {
-        image:{
-            source:"/assets/images/icons/api.svg",
-            alternative:"Api icon"
-        },
-        link:{
-            url:"https://www.w3schools.com",
-            text:"REST API"
-        },
-    },
-    {
-        image:{
-            source:"/assets/images/icons/api.svg",
-            alternative:"Api icon"
-        },
-        link:{
-            url:"https://www.w3schools.com",
-            text:"WebSocket API"
-        },
     }
 ]
 export const projects=[
@@ -209,7 +189,7 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/slider.jpg",
+            source:"/assets/images/photos/e-commerc.jpg",
             alternative:"E-commerce project"
         },
         title:"E-commerce store",
@@ -229,7 +209,7 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/lightjs.jpg",
+            source:"/assets/images/photos/darkjs.jpg",
             alternative:"Dark project"
         },
         title:"Who am i?",

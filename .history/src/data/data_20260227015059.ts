@@ -122,7 +122,7 @@ export const skills=[
         },
         link:{
             url:"https://www.w3schools.com",
-            text:"WebSocket API"
+            text:"WebSocket api"
         },
     }
 ]

@@ -104,26 +104,6 @@ export const skills=[
             url:"https://www.w3schools.com/git/default.asp",
             text:"Git"
         }
-    },
-    {
-        image:{
-            source:"/assets/images/icons/api.svg",
-            alternative:"Api icon"
-        },
-        link:{
-            url:"https://www.w3schools.com",
-            text:"REST API"
-        },
-    },
-    {
-        image:{
-            source:"/assets/images/icons/api.svg",
-            alternative:"Api icon"
-        },
-        link:{
-            url:"https://www.w3schools.com",
-            text:"WebSocket API"
-        },
     }
 ]
 export const projects=[
@@ -209,7 +189,7 @@ export const projects=[
     },
     {
         image:{
-            source:"/assets/images/photos/slider.jpg",
+            source:"/assets/images/photos/e-commerc.jpg",
             alternative:"E-commerce project"
         },
         title:"E-commerce store",
@@ -227,16 +207,7 @@ export const projects=[
         code_link:"https://github.com/RawanBarakat-hub/task-1-adv",
         project_Link:"https://rawanbarakat-hub.github.io/task-1-adv/"
     },
-    {
-        image:{
-            source:"/assets/images/photos/lightjs.jpg",
-            alternative:"Dark project"
-        },
-        title:"Who am i?",
-        text:"Simple landing page to switch between dark and light mode",
-        code_link:"https://github.com/RawanBarakat-hub/Task-additional",
-        project_Link:"https://rawanbarakat-hub.github.io/Task-additional/"
-    },
+    
     {
         image:{
             source:"/assets/images/photos/travelhero.jpg",
